@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    padding: 15px 5px;
+    border-bottom: 1px solid black;
+}
+.logo h2{
+    font-size: 2.6rem;
+}
+nav ul{
+    column-gap: 30px;
+}
+nav ul li a{
+    font-size: 1.8rem;
+    color: black;
+}
+.logo a{
+    color: black;
+}
+.cart i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.cart{
+    position: relative;
+}
+.cart p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.herosection{
+    /* margin-top: 60px; */
+    height: 90vh;
+}
+.heromiddle{
+    width: 80%;
+}
+.rightherosection{
+    width: 50%;
+    overflow: hidden;
+}
+.rightherosection img{
+    width: 90%;
+    border-radius: 90%;
+    /* overflow: hidden; */
+}
+.rightherosection img:hover{
+    transform: rotate(300deg);
+    transition: all 1s ease-in-out;
+}
+.leftherosection{
+    width: 45%;
+}
+.leftherosection h1{
+    font-size: 5rem;
+}
+.leftherosection p{
+    font-size: 2rem;
+}
+
+.mainsection{
+    margin-top: 50px;
+}
+.boxcard{
+    border: 1px solid black;
+    width: 280px;
+}
+.boximage{
+    width: 300px;
+}
+.boximage img{
+    width: 100%;
+}
+.mainsectioncontent{
+    gap: 30px 30px;
+    width: 80%;
+}
+.boxcontent h2{
+    font-size: 2.3rem;
+    margin-top: 10px;
+    text-align: center;
+}
+.boxcontent p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5px;    
+}
+.star{
+    text-align: center;
+    margin: 10px 0;
+}
+.star i{
+    font-size: 2rem;
+}
+.boxcontent{
+    text-align: center;
+}
+.boxcontent button{
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.boxcontent button a{
+    color: white;
+}
+.mainheading{
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+.mainheading h2{
+    font-size: 2.7rem;
+}
+
+
+
+.servicessection{
+    margin-top: 40px;
+}
+.services{
+    width: 80%;
+    gap: 30px;
+}
+.servicebox{
+    width: 290px;
+    text-align: center;
+    padding: 30px 5px;
+    background-color: rgba(75, 72, 72, 0.452);
+}
+.servicebox i{
+    font-size: 6rem;
+}
+.servicebox p{
+    font-size: 2rem;
+    color: white;
+}
+.serviceheading{
+    margin-top: 50px;
+    text-align: center;
+}
+.serviceheading h2{
+    font-size: 2.7rem;
+}
+.contactsection{
+    margin-top: 40px;
+}
+.contactform form{
+    margin-top: 40px;
+}
+.contactform{
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+.contactform h2{
+    font-size: 2.7rem;
+    text-align: center;
+}
+.contactform label{
+    font-size: 1.6rem;
+}
+.contactform input{
+    width: 300px;
+    padding: 5px;
+    outline: none;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 7px 15px;
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.button button a{
+    color: white;
+    font-weight: 600;
+}
+
+
+footer{
+    margin-top: 40px;
+    background-color: black;
+    padding: 15px 5px;
+    text-align: center;
+}
+footer small{
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+.cartsection{
+    text-align: center;
+    margin-top: 50px;
+}
+.cartsection h2{
+    font-size: 2.7rem;
+    border-bottom: 1px solid black;
+}
+.cartsection button{
+    background-color: red;
+    border: none;
+    padding: 9px 15px;
+}
+.cartsection button a{
+    color: white;
+    font-size: 1.6rem;
+}
+.cartpanel{
+    margin-top: 40px;
+    width: 85%;
+}
+.cartbox img{
+    width: 100px;
+    border-radius: 50%;
+}
+.cartbox{
+    margin-bottom: 20px;
+    background-color: rgba(48, 44, 44, 0.247);
+    border-radius: 30px;
+}
+.cartbox h2{
+    font-size: 2.6rem;
+    border: none;
+}
+.cartbox p,span{
+    font-size: 2rem;
+}
+.checkoutsection{
+    margin-top: 40px;
+    width: 80%;
+    text-align: center;
+}
+.checkoutsection h2{
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.checkoutpanel img{
+    width: 40%;
+}
+.checkoutpanel p{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.checkoutpanel h2{
+    margin-top: 30px;
+}
+.checkoutpanel button{
+    background-color: red;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
+.checkoutdata{
+    width: 30%;
+    margin:  0 auto;
+    column-gap: 30px;
+}
+.checkoutdata a input{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.checkoutcart{
+    text-align: center;
+}
+.checkoutbtn{
+    margin-top: 40px;
+}
+.checkoutbtn a{
+    color: white;
+}
+.checkout{
+    margin-bottom: 60px;
+}
+
+
+

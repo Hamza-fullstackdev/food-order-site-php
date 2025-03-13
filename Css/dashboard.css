@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+.leftnav{
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    padding: 40px 20px;
+}
+.logo{
+    text-align: center;
+}
+.logo a{
+    color: white;
+    font-size: 2.4rem;
+}
+.leftnav nav{
+    line-height: 40px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.leftnav nav ul li a{
+    color: white;
+    font-size: 1.8rem;
+}
+.rightmaindata{
+    /* background-color: black; */
+    width: 78%;
+    height: 100vh;
+}
+.rightmaindata header{
+    background-color: black;
+    padding: 20px 5px;
+}
+.rightmaindata nav ul li a{
+    font-size: 1.8rem;
+    color: white;
+}
+.dashboardheading{
+    text-align: center;
+    margin-top: 50px;
+}
+.dashboardheading h1{
+    font-size: 2.8rem;
+}
+.dashboardheading p{
+    font-size: 1.8rem;
+}
+.dashboardpanel{
+    margin-top: 60px;
+    gap: 30px;
+}
+.dashboardpanel .box{
+    background-color: black;
+    width: 280px;
+    color: white;
+    height: 280px
+}
+.boxcontent{
+    text-align: center;
+}
+.boxcontent h2{
+    font-size: 2.5rem;
+}
+.boxcontent p{
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.addfoodsection{
+    padding: 20px;
+}
+.addfoodsection form label{
+    font-size: 1.6rem;
+}
+.addfoodsection form input{
+    padding: 5px;
+    outline: none;
+}
+#textarea{
+    padding: 10px 10px;
+}
+.submitform{
+    text-align: center;
+}
+.submitform input{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.managefood{
+    margin-top: 40px;
+}
+table{
+    width: 90%;
+    text-align: center;
+}
+thead tr th{
+    font-size: 2.4rem;
+    border-bottom: 1px solid black;
+}
+tbody tr td{
+    font-size: 1.7rem;
+    /* margin-top: 10px; */
+}
+tbody tr{
+    margin-top: 20px;
+}
+tbody tr td img{
+    width: 50px;
+}
+tbody tr td i{
+    font-size: 2rem;
+    cursor: pointer;
+    /* color: green; */
+}
+.delete{
+    color: red;
+}
+.update{
+    color: rgb(0, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
